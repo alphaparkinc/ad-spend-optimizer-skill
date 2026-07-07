@@ -1,0 +1,36 @@
+{
+  "name": "ad-spend-optimizer-skill",
+  "version": "1.0.0",
+  "description": "Optimizes budget allocation across Google, Meta, and TikTok ad channels based on performance ROAS metrics.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "ads",
+    "marketing",
+    "budget",
+    "roas",
+    "optimization"
+  ],
+  "inputs": {
+    "channel_performance": {
+      "type": "object",
+      "description": "Existing stats: {google: {spend, roas}, meta: {spend, roas}, tiktok: {spend, roas}}."
+    },
+    "total_budget_usd": {
+      "type": "number",
+      "description": "Target budget limit for allocation."
+    }
+  },
+  "outputs": {
+    "allocated_budget": {
+      "type": "object",
+      "description": "Optimized budget split suggestions."
+    },
+    "projected_revenue": {
+      "type": "number",
+      "description": "Estimated total sales output at optimized ROAS."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
