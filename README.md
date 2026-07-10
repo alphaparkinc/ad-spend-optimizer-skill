@@ -1,4 +1,4 @@
-# ad-spend-optimizer-skill
+# genpark-ad-spend-optimizer-skill
 
 > **GenPark AI Agent Skill** -- Multi-channel ad performance optimizer.
 
