@@ -1,5 +1,5 @@
 {
-  "name": "ad-spend-optimizer-skill",
+  "name": "genpark-ad-spend-optimizer-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Optimizes budget allocation across Google, Meta, and TikTok ad channels based on performance ROAS metrics.",
   "author": "genpark",
